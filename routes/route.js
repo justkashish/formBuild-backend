@@ -17,7 +17,7 @@ const {
     getWorkSpaces
 
 
-} = require("../controllers/mainController.js");
+} = require("../controllers/index.js");
 
 router.get("/user/:id", getUser);
 router.put("/user/:id", updateUser);
