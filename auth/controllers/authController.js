@@ -11,7 +11,6 @@ const generateAccessToken = (id) => {
     });
 };
 
-
 const registerUser = async(req, res) => {
 
     const { username, email, password } = req.body;
