@@ -25,10 +25,10 @@ app.use('/', Routes);
 
 const PORT = process.env.PORT || 5000;
 
-// app.use(cors({
-//     origin: 'https://form-build-frontend-64zz.vercel.app',
-//     methods: 'GET,POST,PUT,DELETE',
-// }));
+app.use(cors({
+    origin: 'https://form-build-frontend-new.vercel.app',
+    methods: 'GET,POST,PUT,DELETE',
+}));
 
 app.listen(PORT, () => {
     console.log("Successfully Connected with PORT: ", PORT);
